@@ -1,0 +1,31 @@
+{
+  "CrawlerInfos": {
+      "BSV": {
+          "CrawlerInputOffset":0,
+          "CrawlerOutputOffset":0,
+          "CrawlerTxOffset":0,
+              "CrawlerCount":10,
+              "StableCnt":0
+      }
+  },
+  "EnableStatistics":false,
+  "StatisticsFlushInterval":10,
+  "Fullnode": {
+    "BSV": {
+      "ZMQURL": "tcp://192.168.17.218:8331",
+      "URL": ["fullnodetesting@fullnodetesting9902kcylap0sdsdbldfasdpfuoupouewrh1111jknvllad@192.168.17.218:8332"]
+    }
+  },
+  "Mongo": {
+    "BSV":{    
+      "AddrService": ["192.168.17.218:27027"],
+      "BlockHeaderService":"192.168.17.218:27027",
+      "AddrIndexService":"192.168.17.218:27027",
+      "HeightAddrService":"192.168.17.218:27027",
+      "HeightHashService":"192.168.17.218:27027",
+      "MonitoredService":"192.168.17.218:27017",
+      "SyncMonitoredAddrService":"192.168.17.218:27017"
+    }
+  },
+  "IsTestEnvironment":true
+}

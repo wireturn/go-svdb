@@ -1,0 +1,17 @@
+*.pb.go
+bitdb
+block_crawler/block_crawler
+addr_crawler/addr_crawler
+test/test
+.idea
+api/config.json
+input_crawler/input_crawler
+output_crawler/output_crawler
+monitored_addr_crawler/monitored_addr_crawler
+block_crawler/log/
+.fuse_hidden*
+test/log/
+tx_sender/
+config.json
+log
+data_syn_center/data_syn_center

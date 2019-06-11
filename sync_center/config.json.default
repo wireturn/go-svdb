@@ -1,0 +1,15 @@
+{
+  "Listen":"0.0.0.0:12306",
+  "Mongo":{
+    "BSV":{
+    "AddrService": ["127.0.0.1:27017", "127.0.0.1:27027", "127.0.0.1:27037"],
+    "BlockHeaderService":"127.0.0.1:27017",
+    "AddrIndexService":"127.0.0.1:27017",
+    "HeightAddrService":"127.0.0.1:27017",
+    "HeightHashService":"127.0.0.1:27017",
+    "MonitoredService":"127.0.0.1:27027",
+    "SyncMonitoredAddrService":"127.0.0.1:27027" 
+    },
+  }
+    "Nodes":["127.0.0.1:4001","127.0.0.1:4002"]
+}

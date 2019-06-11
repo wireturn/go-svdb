@@ -1,0 +1,23 @@
+{
+  "CrawlerInfos": {
+    "BSV": {
+      "CrawlerOffset":0,
+      "CrawlerCount":10,
+      "StableCnt":0
+    }
+  },
+  "EnableStatistics":true,
+  "StatisticsFlushInterval":10,
+  "Fullnode": {
+    "BSV": {
+      "URL": ["toorq2000@helloworldthisisafuckingtestingforbch2000@192.168.1.9:18332"]
+    }
+  },
+  "Mongo": {
+    "AddrService": ["192.168.1.17:27000", "192.168.1.17:27001", "192.168.1.17:27002"],
+    "BlockHeaderService":"192.168.1.17:27010",
+    "AddrIndexService":"192.168.1.17:27011",
+    "HeightAddrService":"192.168.1.17:27012",
+    "HeightHashService":"192.168.1.17:27013"
+  }
+}

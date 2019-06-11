@@ -1,0 +1,36 @@
+{
+  "MonitoredAddrCallbackUrl":"blockexplorerapis.mempool.com:4001/api/test/onnewtx",
+  "Fullnode":{
+    "BSV": {
+      "ZMQURL": "tcp://127.0.0.1:8331",
+      "URL": ["fullnodetesting@fullnodetesting9902kcylap0sdsdbldfasdpfuoupouewrh1111jknvllad@192.168.17.218:8332"]
+    },
+        "BTC": {
+      "ZMQURL": "tcp://192.168.17.218:8331",
+      "URL": ["fullnodetesting@fullnodetesting9902kcylap0sdsdbldfasdpfuoupouewrh1111jknvllad@192.168.17.218:8332"]
+    }
+
+  },
+  "Mongo":{
+    "BSV":{
+      "AddrService": ["127.0.0.1:27017"],
+      "BlockHeaderService":"127.0.0.1:27017",
+      "AddrIndexService":"127.0.0.1:27017",
+      "HeightAddrService":"127.0.0.1:27017",
+      "HeightHashService":"127.0.0.1:27017" ,
+      "MonitoredService":"127.0.0.1:27027" ,
+      "SyncMonitoredAddrService":"127.0.0.1:27017"
+
+    },
+    "BTC":{
+      "AddrService": ["127.0.0.1:37017"],
+      "BlockHeaderService":"127.0.0.1:37017",
+      "AddrIndexService":"127.0.0.1:37017",
+      "HeightAddrService":"127.0.0.1:37017",
+      "HeightHashService":"127.0.0.1:37017" ,
+      "MonitoredService":"127.0.0.1:27027" ,
+      "SyncMonitoredAddrService":"127.0.0.1:27017"
+    }
+  },
+  "IsTestEnvironment":true
+}
