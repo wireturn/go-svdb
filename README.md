@@ -4,11 +4,11 @@
 # Introduce
   go-svdb Project is a bitdb (https://bitdb.network/) Project. It implements a query service on bitcoin-sv.
   
-  However, go-svdb does not copy any code from bitdb, and go-svdb is a self-rewritten database based on the golang.
+  However, go-svdb does not copy any code from bitdb, and go-svdb is a rewritten software based on the golang.
 
   The purpose of the go-svdb project was that Bitdb did not meet the needs of the boquan team for the project.
   
-   The go-svdb service is currently used in two of the three projects of the boquan team:
+  The go-svdb service is currently used in two of the three projects of the boquan team:
   
    + mempool mining pool: pool.mempool.com, the Chinese largest bitcoin-sv mine pool.
    + LastPurse: lastpurse.com/ddpurse.com, the world's number one WeChat bsv wallet.
