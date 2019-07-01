@@ -8,9 +8,9 @@
   + 比特币钱包 Lastpusre ( https://lastpurse.com )。
   
 # 简介
-  go-svdb 项目是一个有点类似 bitdb (https://bitdb.network/) 项目，它实现了一个bitcoin-sv上的查询服务。同时它也支持BTC。
+  go-svdb 项目是一个比特币的查询数据，它实现了一个bitcoin-sv上的数据库查询服务。同时它也支持BTC。
   
-  可是go-svdb并没有抄袭bitdb的任何代码，go-svdb是基于go语言从0开始构建的。
+  go-svdb是基于go语言从0开始构建的。
   
   go-svdb项目成立的原因是：bitdb并不能满足博泉团队对项目的需求。
   

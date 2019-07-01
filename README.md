@@ -9,9 +9,9 @@
     + Bitcoin wallet Lastpusre ( https://lastpurse.com ).
 
 # Introduce
-  go-svdb Project is a bitdb (https://bitdb.network/) Project. It implements a query service on bitcoin-sv.
+  go-svdb Project is a bitcoin database project. It implements a query service on bitcoin-sv. It also supports BTC.
   
-  However, go-svdb does not copy any code from bitdb, and go-svdb is a software based on the golang.
+  go-svdb is a software based on the golang.
 
   The purpose of the go-svdb project is that Bitdb did not meet the needs of the boquan team for the project.
   
